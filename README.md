@@ -18,6 +18,10 @@ Se pide:
 
 3-Obtener los extremos absolutos de temperatura máxima y mínima e indicar en que fecha ocurrieron.
 
+![2023-04-13_20h26_33](https://user-images.githubusercontent.com/72228855/231904263-062d3537-cc75-431b-8bf8-3f1595a4ba67.png)
+
+
+
 4- Obtener los rangos de la temperatura máxima y mínima.
 
 5- ¿Cuál fue la temperatura media más alta y la más baja del período? Indicar en que fecha ocurrieron.
