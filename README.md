@@ -18,7 +18,9 @@ Se pide:
 
 3-Obtener los extremos absolutos de temperatura máxima y mínima e indicar en que fecha ocurrieron.
 
-![2023-04-13_20h26_33](https://user-images.githubusercontent.com/72228855/231904263-062d3537-cc75-431b-8bf8-3f1595a4ba67.png)
+![2023-04-13_21h24_12](https://user-images.githubusercontent.com/72228855/231910884-26357564-12be-4758-a1e7-e87e49540fa2.png)
+
+![2023-04-13_21h24_56](https://user-images.githubusercontent.com/72228855/231910918-f18de3b7-c0c8-435b-a412-79def0dc912a.png)
 
 
 
