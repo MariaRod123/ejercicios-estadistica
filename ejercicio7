@@ -1,0 +1,29 @@
+lluvia_r3 = [2.1,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             4.5,
+             0.1,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0,
+             0.5,
+             0,
+             0,
+             0]
+
+# Acumulados de lluvia durante el período dado
+acumulados_lluvia = sum(lluvia_r3)
+print("Total lluvias acumuladas : ", round(acumulados_lluvia, 1))
+
+#Cantidad de dias con registro de 0 mm
+cant_dias_secos = lluvia_r3.count(0)
+print("Cantidad de dias sin precipitaciones: ", cant_dias_secos)
