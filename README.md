@@ -33,6 +33,9 @@ Se pide:
 
 6- Calcular las medianas de la temperatura máxima, media y mínima.
 
+![2023-04-14_00h16_22](https://user-images.githubusercontent.com/72228855/231932722-5f913625-d2b9-4f70-a27f-6afb910a6eaf.png)
+
+
 7- Calcule el acumulado de lluvia del período. Obtener el acumulado medio y la mediana.
 
 8- Indicar cuantos días No llovió. Obtener la cantidad de días donde el acumulado de precipitación diaria fue mayor o igual a 1mm.
