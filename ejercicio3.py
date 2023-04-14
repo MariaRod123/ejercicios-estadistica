@@ -1,56 +1,35 @@
-temp_maxima = [
-    15.6,
-    13.8,
-    15.2,
-    20.4,
-    20.5,
-    20.6,
-    23.7,
-    24.5,
-    12.6,
-    13.2,
-    15.3,
-    15.8,
-    15,
-    14.5,
-    17.4,
-    21.6,
-    22.8,
-    20.8,
-    21.8,
-    15.4,
-    14
-]
 
-temp_minima =[ 12.8,
-8.8,
-4.6,
-4.6,
-5.8,
-7.5,
-12,
-12.4,
-9.4,
-7.4,
-2.2,
-5.8,
-11,
-4.4,
-4.8,
-10.8,
-12.2,
-12.8,
-12.4,
-10.7,
-10.2
-]
+temp_minima = {
+"01/09/2022":	12.8,
+"02/09/2022":	8.8,
+"03/09/20222":	4.6,
+"04/09/2022":	4.6,
+"05/09/2022":	5.8,
+"06/09/2022":	12,
+"08/09/2022":	12.4,
+"09/09/2022":   9.4,
+"10/09/2022":	7.4,
+"11/09/2022":	2.2,
+"12/09/2022":	5.8,
+"13/09/2022":	11,
+"14/09/2022":	4.4,
+"15/09/2022":	4.8,
+"16/09/2022":	10.8,
+"17/09/2022":	12.2,
+"18/09/2022":	12.8,
+"19/09/2022":	12.4,
+"20/09/2022":	10.7,
+"21/09/2022":	10.2
 
-# Calculo de extremos absolutos para la Máxima
-maxima = max(temp_maxima)
-minima = min(temp_maxima)
-print("Extremos absolutos para la máxima: ", maxima, "°C (máximo absoluto)", "y",  minima, "°C (mínimo absoluto)")
+}
 
-# Calculo de extremos absolutos para la Mínima
-maximo_min = max(temp_minima)
-minimo_min = min(temp_minima)
-print("Extremos absolutos para la mínima: ", maximo_min, "°C (máximo absoluto)", "y",  minimo_min, "°C (mínimo absoluto)")
+# máximo absoluto de la mínima
+maxima_temp = max(temp_minima, key=temp_minima.get)
+maximo_absoluto = temp_minima[maxima_temp]
+
+print("El máximo absoluto de la Mínima fue de", maximo_absoluto,"°C", "el día", maxima_temp)
+
+#minimo de la maxima
+minima_temp = min(temp_minima, key=temp_minima.get)
+minimo_absoluto = temp_minima[minima_temp]
+print("El mínimo absoluto de la Mínima fue de", minimo_absoluto,"°C", "el día", minima_temp)
