@@ -37,6 +37,11 @@ Se pide:
 
 
 7- Calcule el acumulado de lluvia del período. Obtener el acumulado medio y la mediana.
-
 8- Indicar cuantos días No llovió. Obtener la cantidad de días donde el acumulado de precipitación diaria fue mayor o igual a 1mm.
+
+![2023-04-14_01h32_40](https://user-images.githubusercontent.com/72228855/231942469-96a59f8b-b6d5-4d05-a82f-d3da29c07914.png)
+
+
+
+
 
